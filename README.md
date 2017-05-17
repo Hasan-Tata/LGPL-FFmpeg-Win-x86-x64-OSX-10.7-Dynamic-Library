@@ -1,4 +1,4 @@
-# FFmpeg-Win-x86-x64-LGPL-Dynamic-Library
+# LGPL-FFmpeg-Dynamic-Library
 LGPL FFmpeg Dynamic Libraries
  - x86: Windows x86 (built by mingw-w64-i686)
  - x64: Windows x64 (built by mingw-w64-x86_64)
