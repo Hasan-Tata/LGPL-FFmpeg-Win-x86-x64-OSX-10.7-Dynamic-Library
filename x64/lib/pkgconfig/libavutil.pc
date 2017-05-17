@@ -1,0 +1,14 @@
+prefix=/cygdrive/d/Work/Jamal/FFmpeg/ffmpeg-windows-build-helpers-master/native_build/windows/ffmpeg_local_builds/sandbox/x86_64/ffmpeg_git_shared.installed
+exec_prefix=${prefix}
+libdir=/cygdrive/d/Work/Jamal/FFmpeg/ffmpeg-windows-build-helpers-master/native_build/windows/ffmpeg_local_builds/sandbox/x86_64/ffmpeg_git_shared.installed/lib
+includedir=/cygdrive/d/Work/Jamal/FFmpeg/ffmpeg-windows-build-helpers-master/native_build/windows/ffmpeg_local_builds/sandbox/x86_64/ffmpeg_git_shared.installed/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.61.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

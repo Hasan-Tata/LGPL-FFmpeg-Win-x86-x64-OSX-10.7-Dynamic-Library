@@ -1,0 +1,14 @@
+prefix=/cygdrive/d/Work/Jamal/FFmpeg/ffmpeg-windows-build-helpers-master/native_build/windows/ffmpeg_local_builds/sandbox/win32/ffmpeg_git_shared.installed
+exec_prefix=${prefix}
+libdir=/cygdrive/d/Work/Jamal/FFmpeg/ffmpeg-windows-build-helpers-master/native_build/windows/ffmpeg_local_builds/sandbox/win32/ffmpeg_git_shared.installed/lib
+includedir=/cygdrive/d/Work/Jamal/FFmpeg/ffmpeg-windows-build-helpers-master/native_build/windows/ffmpeg_local_builds/sandbox/win32/ffmpeg_git_shared.installed/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 3.6.0
+Requires: 
+Requires.private: libavutil >= 55.61.100
+Conflicts:
+Libs: -L${libdir}  -lavresample 
+Libs.private: -lm
+Cflags: -I${includedir}
